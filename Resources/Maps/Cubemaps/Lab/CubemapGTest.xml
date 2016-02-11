@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<cubemap>
+    <face name="Maps/Cubemaps/Lab/CubemapGTest_PosX.png" />
+    <face name="Maps/Cubemaps/Lab/CubemapGTest_NegX.png" />
+    <face name="Maps/Cubemaps/Lab/CubemapGTest_PosY.png" />
+    <face name="Maps/Cubemaps/Lab/CubemapGTest_NegY.png" />
+    <face name="Maps/Cubemaps/Lab/CubemapGTest_PosZ.png" />
+    <face name="Maps/Cubemaps/Lab/CubemapGTest_NegZ.png" />
+</cubemap>
