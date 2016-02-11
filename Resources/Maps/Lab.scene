@@ -5,8 +5,8 @@
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="0" />
-	<attribute name="Next Replicated Node ID" value="2262" />
-	<attribute name="Next Replicated Component ID" value="3852" />
+	<attribute name="Next Replicated Node ID" value="2264" />
+	<attribute name="Next Replicated Component ID" value="3854" />
 	<attribute name="Next Local Node ID" value="16778496" />
 	<attribute name="Next Local Component ID" value="16777216" />
 	<attribute name="Variables" />
@@ -643,7 +643,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2296">
 					<attribute name="Model" value="Model;4c00ddaeb15cde31971f6c95392bd961.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallCorner_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -658,7 +658,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2298">
 					<attribute name="Model" value="Model;4c00ddaeb15cde31971f6c95392bd961.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallCorner_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -673,7 +673,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2302">
 					<attribute name="Model" value="Model;4c00ddaeb15cde31971f6c95392bd961.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallCorner_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -688,7 +688,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2305">
 					<attribute name="Model" value="Model;4c00ddaeb15cde31971f6c95392bd961.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallCorner_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -5470,14 +5470,14 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="3579">
 					<attribute name="Model" value="Model;f555d4c4eb52ec1485070c0679439e75.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/TreeSupport_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
 				</component>
 			</node>
 			<node id="1987">
-				<attribute name="Is Enabled" value="true" />
+				<attribute name="Is Enabled" value="false" />
 				<attribute name="Name" value="Tube" />
 				<attribute name="Position" value="35 0 -3" />
 				<attribute name="Rotation" value="1 0 0 0" />
@@ -5517,7 +5517,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="3582">
 					<attribute name="Model" value="Model;f555d4c4eb52ec1485070c0679439e75.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/GrassFloor_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -5532,7 +5532,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="3583">
 					<attribute name="Model" value="Model;f555d4c4eb52ec1485070c0679439e75.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/GrassFloor_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -5547,7 +5547,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="3584">
 					<attribute name="Model" value="Model;55e2cebd279de88d4da849c127bf1521.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/GrassFloor_MAT.material;" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/GrassFloor_MAT.material;Assets/Meshes/Materials/GrassFloor_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
