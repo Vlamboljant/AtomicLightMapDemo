@@ -5,8 +5,8 @@
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="0" />
-	<attribute name="Next Replicated Node ID" value="2272" />
-	<attribute name="Next Replicated Component ID" value="3862" />
+	<attribute name="Next Replicated Node ID" value="2280" />
+	<attribute name="Next Replicated Component ID" value="3870" />
 	<attribute name="Next Local Node ID" value="16778496" />
 	<attribute name="Next Local Component ID" value="16777216" />
 	<attribute name="Variables" />
@@ -2021,7 +2021,7 @@
 			<node id="1030">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="Pillar" />
-				<attribute name="Position" value="29 0 9" />
+				<attribute name="Position" value="32 0 9" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2036,7 +2036,7 @@
 			<node id="1033">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="Pillar" />
-				<attribute name="Position" value="41 0 9" />
+				<attribute name="Position" value="38 0 9" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2051,7 +2051,7 @@
 			<node id="1036">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="Pillar" />
-				<attribute name="Position" value="41 0 -15" />
+				<attribute name="Position" value="38 0 -15" />
 				<attribute name="Rotation" value="-7.45058e-08 0 -1 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2066,7 +2066,7 @@
 			<node id="1039">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="Pillar" />
-				<attribute name="Position" value="29 0 -15" />
+				<attribute name="Position" value="32 0 -15" />
 				<attribute name="Rotation" value="7.45057e-08 0 1 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2141,7 +2141,7 @@
 			<node id="1053">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PillarTop" />
-				<attribute name="Position" value="29 4 6" />
+				<attribute name="Position" value="32 4 6" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2156,7 +2156,7 @@
 			<node id="1055">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PillarTop" />
-				<attribute name="Position" value="41 4 6" />
+				<attribute name="Position" value="38 4 6" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2171,7 +2171,7 @@
 			<node id="1058">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PillarTop" />
-				<attribute name="Position" value="41 4 -12" />
+				<attribute name="Position" value="38 4 -12" />
 				<attribute name="Rotation" value="-7.45058e-08 0 -1 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2186,7 +2186,7 @@
 			<node id="1061">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PillarTop" />
-				<attribute name="Position" value="29 4 -12" />
+				<attribute name="Position" value="32 4 -12" />
 				<attribute name="Rotation" value="7.45057e-08 0 1 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2312,36 +2312,6 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2686">
 					<attribute name="Model" value="Model;b104ef7db75fca3fbbf1b38ba9855399.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
-					<attribute name="Geometry Enabled">
-						<variant type="Bool" value="true" />
-					</attribute>
-				</component>
-			</node>
-			<node id="2268">
-				<attribute name="Is Enabled" value="true" />
-				<attribute name="Name" value="Pillar" />
-				<attribute name="Position" value="35 0 -15" />
-				<attribute name="Rotation" value="7.45058e-08 0 1 0" />
-				<attribute name="Scale" value="1 1 1" />
-				<attribute name="Variables" />
-				<component type="StaticModel" id="3858">
-					<attribute name="Model" value="Model;396bd50c4fbbd02701e418a4895ed858.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
-					<attribute name="Geometry Enabled">
-						<variant type="Bool" value="true" />
-					</attribute>
-				</component>
-			</node>
-			<node id="2270">
-				<attribute name="Is Enabled" value="true" />
-				<attribute name="Name" value="PillarTop" />
-				<attribute name="Position" value="35 4 -12" />
-				<attribute name="Rotation" value="7.45058e-08 0 1 0" />
-				<attribute name="Scale" value="1 1 1" />
-				<attribute name="Variables" />
-				<component type="StaticModel" id="3860">
-					<attribute name="Model" value="Model;86ae524329312b38e08dda7320edef01.mdl" />
 					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
@@ -7873,5 +7843,39 @@
 				<variant type="Bool" value="true" />
 			</attribute>
 		</component>
+	</node>
+	<node id="2276">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="FreeCamera" />
+		<attribute name="Position" value="4.98232 1.86834 -3.20627" />
+		<attribute name="Rotation" value="0.718337 0 0.695696 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="JSComponent" id="3865">
+			<attribute name="ComponentFile" value="JSComponentFile;Components/FreeCam.js" />
+		</component>
+		<component type="Camera" id="3866" />
+	</node>
+	<node id="2277">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="FPSCamera" />
+		<attribute name="Position" value="13.8906 3 -3.03555" />
+		<attribute name="Rotation" value="0.696726 0 0.717338 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Camera" id="3867">
+			<attribute name="Far Clip" value="2000" />
+		</component>
+		<component type="JSComponent" id="3868">
+			<attribute name="ComponentFile" value="JSComponentFile;Components/FPSCamera.js" />
+		</component>
+		<node id="2278">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="FPSView" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+		</node>
 	</node>
 </scene>
