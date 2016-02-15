@@ -47,7 +47,7 @@ exports.component = function(self) {
 	     
 	    var headNode = node.getChild("FPSView", true);
 	    var headPos = headNode.getWorldPosition();
-	    var fixedY = 2.30;
+	    var fixedY = 1.8;
 
 	    node.setPosition([headPos[0],fixedY,headPos[2]]);
 
