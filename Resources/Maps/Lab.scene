@@ -5,8 +5,8 @@
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="0" />
-	<attribute name="Next Replicated Node ID" value="2286" />
-	<attribute name="Next Replicated Component ID" value="3877" />
+	<attribute name="Next Replicated Node ID" value="2344" />
+	<attribute name="Next Replicated Component ID" value="3936" />
 	<attribute name="Next Local Node ID" value="16778496" />
 	<attribute name="Next Local Component ID" value="16777216" />
 	<attribute name="Variables" />
@@ -14,6 +14,7 @@
 	<component type="PhysicsWorld" id="1" />
 	<component type="Octree" id="2" />
 	<component type="DebugRenderer" id="3" />
+	<component type="Renderer2D" id="3914" />
 	<node id="2">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="Zone" />
@@ -1151,13 +1152,13 @@
 			<node id="1085">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="Ring" />
-				<attribute name="Position" value="35 -4 -3" />
+				<attribute name="Position" value="35 0 -3" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2688">
 					<attribute name="Model" value="Model;1c4cd55d71bebbfdcdf298f74b497c1b.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Black.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -2021,7 +2022,7 @@
 			<node id="1030">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="Pillar" />
-				<attribute name="Position" value="32 0 9" />
+				<attribute name="Position" value="29 0 9" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2036,7 +2037,7 @@
 			<node id="1033">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="Pillar" />
-				<attribute name="Position" value="38 0 9" />
+				<attribute name="Position" value="41 0 9" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2051,7 +2052,7 @@
 			<node id="1036">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="Pillar" />
-				<attribute name="Position" value="38 0 -15" />
+				<attribute name="Position" value="41 0 -15" />
 				<attribute name="Rotation" value="-7.45058e-08 0 -1 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2066,7 +2067,7 @@
 			<node id="1039">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="Pillar" />
-				<attribute name="Position" value="32 0 -15" />
+				<attribute name="Position" value="29 0 -15" />
 				<attribute name="Rotation" value="7.45057e-08 0 1 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2141,7 +2142,7 @@
 			<node id="1053">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PillarTop" />
-				<attribute name="Position" value="32 4 6" />
+				<attribute name="Position" value="29 4 6" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2156,7 +2157,7 @@
 			<node id="1055">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PillarTop" />
-				<attribute name="Position" value="38 4 6" />
+				<attribute name="Position" value="41 4 6" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2171,7 +2172,7 @@
 			<node id="1058">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PillarTop" />
-				<attribute name="Position" value="38 4 -12" />
+				<attribute name="Position" value="41 4 -12" />
 				<attribute name="Rotation" value="-7.45058e-08 0 -1 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2186,7 +2187,7 @@
 			<node id="1061">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PillarTop" />
-				<attribute name="Position" value="32 4 -12" />
+				<attribute name="Position" value="29 4 -12" />
 				<attribute name="Rotation" value="7.45057e-08 0 1 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
@@ -2267,7 +2268,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2678">
 					<attribute name="Model" value="Model;b104ef7db75fca3fbbf1b38ba9855399.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Door_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/PillarBig_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -2282,7 +2283,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2680">
 					<attribute name="Model" value="Model;b104ef7db75fca3fbbf1b38ba9855399.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/PillarBig_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -2297,7 +2298,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2683">
 					<attribute name="Model" value="Model;b104ef7db75fca3fbbf1b38ba9855399.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/PillarBig_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -2312,6 +2313,36 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2686">
 					<attribute name="Model" value="Model;b104ef7db75fca3fbbf1b38ba9855399.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/PillarBig_MAT.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2289">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pillar" />
+				<attribute name="Position" value="35 0 -15" />
+				<attribute name="Rotation" value="7.45057e-08 0 1 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3880">
+					<attribute name="Model" value="Model;396bd50c4fbbd02701e418a4895ed858.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2291">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="PillarTop" />
+				<attribute name="Position" value="35 4 -12" />
+				<attribute name="Rotation" value="7.45057e-08 0 1 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3882">
+					<attribute name="Model" value="Model;86ae524329312b38e08dda7320edef01.mdl" />
 					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
@@ -2335,8 +2366,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="1976">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2355,8 +2387,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="1978">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2375,8 +2408,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="1981">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2395,8 +2429,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="1984">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2415,8 +2450,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="1990">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2435,8 +2471,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="1992">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2455,8 +2492,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="1994">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2475,8 +2513,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="1996">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2495,8 +2534,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2006">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2515,8 +2555,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2008">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2535,8 +2576,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2010">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2555,8 +2597,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2012">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2575,8 +2618,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2014">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2595,8 +2639,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2016">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2615,8 +2660,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2018">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2635,8 +2681,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2020">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2655,8 +2702,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2030">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2675,8 +2723,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2032">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2695,8 +2744,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2034">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2715,8 +2765,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2036">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2735,8 +2786,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2038">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2755,8 +2807,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2040">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2775,8 +2828,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2042">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2795,8 +2849,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2044">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2815,8 +2870,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2047">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2835,8 +2891,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2050">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2855,8 +2912,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2053">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2875,8 +2933,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2058">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2895,8 +2954,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2060">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2915,8 +2975,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2062">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2935,8 +2996,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2067">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2955,8 +3017,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2069">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2975,8 +3038,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2071">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -2995,8 +3059,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2076">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3015,8 +3080,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2078">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3035,8 +3101,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2080">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3055,8 +3122,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2085">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3075,8 +3143,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2087">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3095,8 +3164,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2089">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3115,8 +3185,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2100">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3135,8 +3206,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2102">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3155,8 +3227,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2104">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3175,8 +3248,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2112">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3195,8 +3269,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2114">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3215,8 +3290,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2116">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3235,8 +3311,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2124">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3255,8 +3332,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2126">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3275,8 +3353,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2128">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3295,8 +3374,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2130">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3315,8 +3395,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2132">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3335,8 +3416,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2134">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3355,8 +3437,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2142">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3375,8 +3458,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2144">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3395,8 +3479,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2146">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3415,8 +3500,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2148">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3435,8 +3521,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2150">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3455,8 +3542,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2152">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3475,8 +3563,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2160">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3495,8 +3584,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2162">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3515,8 +3605,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2164">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3535,8 +3626,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2166">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3555,8 +3647,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2168">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3575,8 +3668,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2170">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3595,8 +3689,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2178">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3615,8 +3710,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2180">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3635,8 +3731,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2182">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3655,8 +3752,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2184">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3675,8 +3773,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2186">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3695,8 +3794,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2188">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3715,8 +3815,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2196">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3735,8 +3836,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2198">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3755,8 +3857,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2200">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3775,8 +3878,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2202">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3795,8 +3899,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2204">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -3815,8 +3920,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2206">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4707,8 +4813,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2704">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4727,8 +4834,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2707">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4747,8 +4855,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2710">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4767,8 +4876,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2713">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4787,8 +4897,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2716">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4807,8 +4918,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2721">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4827,8 +4939,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2723">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4847,8 +4960,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2725">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4867,8 +4981,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2728">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4887,8 +5002,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2731">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4907,8 +5023,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2734">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4927,8 +5044,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2737">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4947,8 +5065,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2743">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4967,8 +5086,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2746">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -4987,8 +5107,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2749">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5007,8 +5128,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2752">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5027,8 +5149,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2859">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5047,8 +5170,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2861">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5097,7 +5221,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2867">
 					<attribute name="Model" value="Model;b104ef7db75fca3fbbf1b38ba9855399.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/PillarBig_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -5112,7 +5236,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2869">
 					<attribute name="Model" value="Model;b104ef7db75fca3fbbf1b38ba9855399.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/PillarBig_MAT.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
@@ -5142,8 +5266,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2884">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5162,8 +5287,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2886">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5182,8 +5308,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2915">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5202,8 +5329,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2917">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5222,8 +5350,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2921">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5242,8 +5371,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2923">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5262,8 +5392,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2927">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material;" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5282,8 +5413,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2929">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5302,8 +5434,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2933">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5322,8 +5455,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2935">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5342,8 +5476,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2939">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5362,8 +5497,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2941">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5382,8 +5518,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2945">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5402,8 +5539,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2947">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5422,8 +5560,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2951">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -5442,8 +5581,9 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2953">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/Glass_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Wall_MAT.material;Assets/Meshes/Materials/Glass_MAT.material" />
 					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
 						<variant type="Bool" value="true" />
@@ -7738,7 +7878,7 @@
 				</component>
 			</node>
 			<node id="2115">
-				<attribute name="Is Enabled" value="false" />
+				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="TubePillar" />
 				<attribute name="Position" value="35 0 -3" />
 				<attribute name="Rotation" value="-0.707107 0 0.707107 0" />
@@ -7822,6 +7962,171 @@
 				<component type="StaticModel" id="3846">
 					<attribute name="Model" value="Model;ccb2460e54953404ac789a9bb9843d65.mdl" />
 					<attribute name="Material" value="Material;Assets/Meshes/Materials/Rock_MAT.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2294">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 3 -3" />
+				<attribute name="Rotation" value="-3.12924e-07 0 1 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3885">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2297">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 6 -3" />
+				<attribute name="Rotation" value="-3.12924e-07 0 1 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3888">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2301">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 3 -3" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3892">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2303">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 3 -3" />
+				<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3894">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2307">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 6 -3" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3898">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2309">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 6 -3" />
+				<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3900">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2313">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 9 -3" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3904">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2315">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 9 -3" />
+				<attribute name="Rotation" value="0.707107 0 0.707107 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3906">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2327">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 3 -3" />
+				<attribute name="Rotation" value="0.707107 0 -0.707107 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3919">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2330">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 6 -3" />
+				<attribute name="Rotation" value="0.707107 0 -0.707107 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3922">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
+					<attribute name="Geometry Enabled">
+						<variant type="Bool" value="true" />
+					</attribute>
+				</component>
+			</node>
+			<node id="2333">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="TubePillar" />
+				<attribute name="Position" value="35 9 -3" />
+				<attribute name="Rotation" value="0.707107 0 -0.707107 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="3925">
+					<attribute name="Model" value="Model;b2f48fdb1c634bde23dde5b7b9bfabca.mdl" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/DefaultMaterial.material" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
 					</attribute>
