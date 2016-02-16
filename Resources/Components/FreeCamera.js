@@ -1,22 +1,20 @@
-//First person camera
+//Free Camera
 "atomic component";
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var FPSCamera = (function (_super) {
-    __extends(FPSCamera, _super);
-    function FPSCamera() {
+var FreeCamera = (function (_super) {
+    __extends(FreeCamera, _super);
+    function FreeCamera() {
         _super.apply(this, arguments);
         this.node = this.node;
-        this.graphics = Atomic.graphics;
         this.renderer = Atomic.renderer;
         this.cameraNode = Atomic.node;
         this.input = Atomic.input;
         this.yaw = 0;
         this.pitch = 0;
-        this.fixedY = 0;
         this.moveForward = false;
         this.moveBackward = false;
         this.moveLeft = false;
@@ -24,29 +22,25 @@ var FPSCamera = (function (_super) {
         this.isRunning = false;
         this.mouseMoveX = 0.0;
         this.mouseMoveY = 0.0;
-        this.isFPSCamActive = false;
+        this.isFreeCamActive = true; //Need to be true to start with FPSCamera
     }
-    FPSCamera.prototype.start = function () {
+    FreeCamera.prototype.start = function () {
         var camera = this.node.getComponent("Camera");
     };
-    FPSCamera.prototype.update = function (timeStep) {
+    FreeCamera.prototype.update = function (timeStep) {
         var camera = this.node.getComponent("Camera");
         this.cameraNode = camera.node;
-        var headNode = this.node.getChild("FPSView", true);
-        var headPos = headNode.getWorldPosition();
-        this.fixedY = 1.8;
-        this.node.setPosition([headPos[0], this.fixedY, headPos[2]]);
         if (this.input.getKeyPress(Atomic.KEY_F)) {
-            this.isFPSCamActive = !this.isFPSCamActive;
-            if (this.isFPSCamActive)
+            this.isFreeCamActive = !this.isFreeCamActive;
+            if (this.isFreeCamActive)
                 this.renderer.getViewport(0).setCamera(camera);
         }
-        if (this.isFPSCamActive) {
+        if (this.isFreeCamActive) {
             this.updateInput();
             this.moveCamera(timeStep);
         }
     };
-    FPSCamera.prototype.updateInput = function () {
+    FreeCamera.prototype.updateInput = function () {
         this.moveForward = false;
         this.moveBackward = false;
         this.moveLeft = false;
@@ -65,7 +59,7 @@ var FPSCamera = (function (_super) {
         this.mouseMoveX = this.input.getMouseMoveX();
         this.mouseMoveY = this.input.getMouseMoveY();
     };
-    FPSCamera.prototype.moveCamera = function (timeStep) {
+    FreeCamera.prototype.moveCamera = function (timeStep) {
         var MOVE_SPEED = 10.0;
         var MOUSE_SENSITIVITY = 0.1;
         this.yaw = this.yaw + MOUSE_SENSITIVITY * this.mouseMoveX;
@@ -76,7 +70,7 @@ var FPSCamera = (function (_super) {
             this.pitch = 90;
         this.cameraNode.rotation = this.QuatFromEuler(this.pitch, this.yaw, 0.0);
         var speed = MOVE_SPEED * timeStep;
-        var runningSpeed = speed * 1.5;
+        var runningSpeed = speed * 1.8;
         if (!(this.isRunning)) {
             if (this.moveForward)
                 this.cameraNode.translate([0.0, 0.0, speed]);
@@ -98,9 +92,10 @@ var FPSCamera = (function (_super) {
                 this.cameraNode.translate([runningSpeed, 0.0, 0.0]);
         }
     };
-    FPSCamera.prototype.QuatFromEuler = function (x, y, z) {
+    FreeCamera.prototype.QuatFromEuler = function (x, y, z) {
         var M_PI = 3.14159265358979323846264338327950288;
         var q = [0, 0, 0, 0];
+        // Order of rotations: Z first, then X, then Y (mimics typical FPS camera with gimbal lock at top/bottom)
         x *= (M_PI / 360);
         y *= (M_PI / 360);
         z *= (M_PI / 360);
@@ -116,7 +111,7 @@ var FPSCamera = (function (_super) {
         q[3] = cosY * cosX * sinZ - sinY * sinX * cosZ;
         return q;
     };
-    return FPSCamera;
+    return FreeCamera;
 })(Atomic.JSComponent);
-module.exports = FPSCamera;
-//# sourceMappingURL=FPSCamera.js.map
+module.exports = FreeCamera;
+//# sourceMappingURL=FreeCamera.js.map

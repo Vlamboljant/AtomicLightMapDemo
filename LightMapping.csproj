@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{845C1D54-9DC7-4495-B99A-6973DA0E8145}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.7</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Assets\Meshes\Materials\01 - Default.001.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\01 - Default.001.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\01 - Default.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\01 - Default.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\CubeMapTest_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\CubeMapTest_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\DefaultMaterial.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\DefaultMaterial.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\Door_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\Door_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\FloorGlass_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\FloorGlass_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\Glass_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\Glass_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\GrassFloor_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\GrassFloor_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\Grass_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\Grass_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\Pillar_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\Pillar_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\Rock_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\Rock_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\TreeSupport_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\TreeSupport_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\Tree_Bark_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\Tree_Bark_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\Tree_Leaf_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\Tree_Leaf_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\WallCorner_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\WallCorner_MAT.material.asset" />
+    <Content Include="Resources\Assets\Meshes\Materials\Wall_MAT.material" />
+    <Content Include="Resources\Assets\Meshes\Materials\Wall_MAT.material.asset" />
+    <Content Include="Resources\Components\FPSCamera.js" />
+    <Content Include="Resources\Components\FreeCamera.js" />
+    <Content Include="Resources\Components\HUD.js" />
+    <Content Include="Resources\Components\MouseController.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Assets\Textures\" />
+    <Folder Include="Resources\Maps\Cubemaps\Lab\" />
+    <Folder Include="Resources\Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Resources\Components\FPSCamera.ts" />
+    <TypeScriptCompile Include="Resources\Components\FreeCamera.ts" />
+    <TypeScriptCompile Include="Resources\Components\HUD.ts" />
+    <TypeScriptCompile Include="Resources\Components\MouseController.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>LightMapping</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58878</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58878/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>
