@@ -5,8 +5,8 @@
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="0" />
-	<attribute name="Next Replicated Node ID" value="2668" />
-	<attribute name="Next Replicated Component ID" value="4259" />
+	<attribute name="Next Replicated Node ID" value="2669" />
+	<attribute name="Next Replicated Component ID" value="4262" />
 	<attribute name="Next Local Node ID" value="16778496" />
 	<attribute name="Next Local Component ID" value="16777216" />
 	<attribute name="Variables" />
@@ -15,6 +15,12 @@
 	<component type="Octree" id="2" />
 	<component type="DebugRenderer" id="3" />
 	<component type="Renderer2D" id="3914" />
+	<component type="JSComponent" id="4260">
+		<attribute name="ComponentFile" value="JSComponentFile;Components/HUD.js" />
+	</component>
+	<component type="JSComponent" id="4261">
+		<attribute name="ComponentFile" value="JSComponentFile;Components/MouseController.js" />
+	</component>
 	<node id="2">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="Zone" />
@@ -8307,7 +8313,7 @@
 		<attribute name="Scale" value="1 1 1" />
 		<attribute name="Variables" />
 		<component type="JSComponent" id="3865">
-			<attribute name="ComponentFile" value="JSComponentFile;Components/FreeCam.js" />
+			<attribute name="ComponentFile" value="JSComponentFile;Components/FreeCamera.js" />
 		</component>
 		<component type="Camera" id="3866" />
 	</node>
