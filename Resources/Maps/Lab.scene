@@ -5,8 +5,8 @@
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="0" />
-	<attribute name="Next Replicated Node ID" value="2710" />
-	<attribute name="Next Replicated Component ID" value="4303" />
+	<attribute name="Next Replicated Node ID" value="2715" />
+	<attribute name="Next Replicated Component ID" value="4308" />
 	<attribute name="Next Local Node ID" value="16778496" />
 	<attribute name="Next Local Component ID" value="16777216" />
 	<attribute name="Variables" />
@@ -531,6 +531,7 @@
 			<attribute name="Variables" />
 			<component type="Light" id="4272">
 				<attribute name="Light Type" value="Directional" />
+				<attribute name="Cast Shadows" value="true" />
 				<attribute name="CSM Splits" value="10 20 50 0" />
 				<attribute name="View Size Quantize" value="1" />
 				<attribute name="View Size Minimum" value="5" />
@@ -1796,7 +1797,7 @@
 			<attribute name="Scale" value="1 1 1" />
 			<attribute name="Variables" />
 			<node id="1361">
-				<attribute name="Is Enabled" value="false" />
+				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="WallOutside" />
 				<attribute name="Position" value="5 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
@@ -1813,7 +1814,7 @@
 				</component>
 			</node>
 			<node id="1382">
-				<attribute name="Is Enabled" value="false" />
+				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="WallOutside" />
 				<attribute name="Position" value="17 0 -6" />
 				<attribute name="Rotation" value="-7.45058e-08 0 1 0" />
@@ -1846,7 +1847,7 @@
 				</component>
 			</node>
 			<node id="1416">
-				<attribute name="Is Enabled" value="false" />
+				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="WallCornerOutside" />
 				<attribute name="Position" value="32 0 -19" />
 				<attribute name="Rotation" value="0.707107 0 -0.707107 0" />
@@ -2109,7 +2110,7 @@
 				</component>
 			</node>
 			<node id="2682">
-				<attribute name="Is Enabled" value="false" />
+				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="WallCornerOutside" />
 				<attribute name="Position" value="38 0 13" />
 				<attribute name="Rotation" value="0.707107 0 0.707107 0" />
@@ -2125,7 +2126,7 @@
 				</component>
 			</node>
 			<node id="2685">
-				<attribute name="Is Enabled" value="false" />
+				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="WallCornerOutside" />
 				<attribute name="Position" value="51 0 -6.00001" />
 				<attribute name="Rotation" value="-3.12924e-07 0 1 0" />
@@ -3535,7 +3536,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2100">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
 					<attribute name="Cast Shadows" value="true" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
@@ -3557,7 +3558,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2102">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
 					<attribute name="Cast Shadows" value="true" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
@@ -3579,7 +3580,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="2104">
 					<attribute name="Model" value="Model;535070fc453eee99139bd4a53e71b412.mdl" />
-					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material" />
+					<attribute name="Material" value="Material;Assets/Meshes/Materials/WallLight_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_Mat_MAT.material;Assets/Meshes/Materials/Wall_MAT.material" />
 					<attribute name="Cast Shadows" value="true" />
 					<attribute name="Geometry Enabled">
 						<variant type="Bool" value="true" />
@@ -8841,7 +8842,7 @@
 		<attribute name="Variables" />
 		<component type="StaticModel" id="4290">
 			<attribute name="Model" value="Model;c7421b6612fee6264d8209db8bc37371.mdl" />
-			<attribute name="Material" value="Material;Assets/Meshes/Materials/Wall_Mat_MAT.material" />
+			<attribute name="Material" value="Material;Assets/Meshes/Materials/Tree_Bark_MAT.material" />
 			<attribute name="Cast Shadows" value="true" />
 			<attribute name="Geometry Enabled">
 				<variant type="Bool" value="true" />

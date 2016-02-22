@@ -5,10 +5,10 @@
 	<texture unit="normal" name="Assets/Textures/bark4_nmp.tga" />
 	<parameter name="UOffset" value="1 0 0 0" />
 	<parameter name="VOffset" value="0 1 0 0" />
-	<parameter name="MatDiffColor" value="0.8 0.8 0.8 1" />
+	<parameter name="MatDiffColor" value="1 1 1 1" />
 	<parameter name="MatEmissiveColor" value="0 0 0 1" />
 	<parameter name="MatEnvMapColor" value="1 1 1" />
-	<parameter name="MatSpecColor" value="0.6 0.6 0.6 16" />
+	<parameter name="MatSpecColor" value="0.2 0.2 0.2 1000" />
 	<cull value="ccw" />
 	<shadowcull value="ccw" />
 	<fill value="solid" />
