@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <material>
 	<technique name="Techniques/DiffNormal.xml" quality="0" loddistance="0" />
-	<texture unit="diffuse" name="Assets/Textures/Glass.tga" />
-	<texture unit="normal" name="Assets/Textures/Rock_Normal.tga" />
+	<texture unit="diffuse" name="Assets/Textures/Glass.jpg" />
+	<texture unit="normal" name="Assets/Textures/Rock_Normal.jpg" />
 	<parameter name="UOffset" value="1 0 0 0" />
 	<parameter name="VOffset" value="0 1 0 0" />
-	<parameter name="MatDiffColor" value="0.8 0.8 0.8 1" />
+	<parameter name="MatDiffColor" value="0.5 0.5 0.5 1" />
 	<parameter name="MatEmissiveColor" value="0 0 0 1" />
 	<parameter name="MatEnvMapColor" value="1 1 1" />
 	<parameter name="MatSpecColor" value="0.6 0.6 0.6 16" />
