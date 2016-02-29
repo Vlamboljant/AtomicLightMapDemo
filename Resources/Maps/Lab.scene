@@ -5,8 +5,8 @@
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="0" />
-	<attribute name="Next Replicated Node ID" value="2917" />
-	<attribute name="Next Replicated Component ID" value="4507" />
+	<attribute name="Next Replicated Node ID" value="2918" />
+	<attribute name="Next Replicated Component ID" value="4508" />
 	<attribute name="Next Local Node ID" value="16778496" />
 	<attribute name="Next Local Component ID" value="16777216" />
 	<attribute name="Variables" />
@@ -9627,8 +9627,8 @@
 	<node id="2276">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="FreeCamera" />
-		<attribute name="Position" value="4.98232 1.86834 -3.20627" />
-		<attribute name="Rotation" value="0.718337 0 0.695696 0" />
+		<attribute name="Position" value="4 3 -3" />
+		<attribute name="Rotation" value="0.707107 0 0.707107 0" />
 		<attribute name="Scale" value="1 1 1" />
 		<attribute name="Variables" />
 		<component type="JSComponent" id="3865">
@@ -9639,8 +9639,8 @@
 	<node id="2277">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="FPSCamera" />
-		<attribute name="Position" value="13.8906 3 -3.03555" />
-		<attribute name="Rotation" value="0.696726 0 0.717338 0" />
+		<attribute name="Position" value="4 3 -3" />
+		<attribute name="Rotation" value="0.707107 0 0.707107 0" />
 		<attribute name="Scale" value="1 1 1" />
 		<attribute name="Variables" />
 		<component type="Camera" id="3867">
